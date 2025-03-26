@@ -279,7 +279,6 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
-   justify-content: space-between;
   min-height: 480px;
 
 }
@@ -289,6 +288,7 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
 }
 .program-card-content {
   margin-top: 24px;
